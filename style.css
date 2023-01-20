@@ -11,19 +11,25 @@ h1 {
     background-color: grey;
 }
 
-ul{
-    background-color: green;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #555;
+  }
 
 
-li a {
+li.navitem a {
+    float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
+    font-size: 20px;
     text-decoration: none;
   }
   
-  li a:hover {
+  li.navitem a:hover {
     background-color: #111;
   }
