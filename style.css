@@ -4,6 +4,11 @@ h1 {
     
 }
 
+body{
+  color: darkblue;
+  font: "Trebuchet MS";
+}
+
 
 .navbar{
 
@@ -11,7 +16,7 @@ h1 {
     background-color: grey;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
