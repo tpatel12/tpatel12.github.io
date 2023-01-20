@@ -34,12 +34,25 @@ li.navitem a {
     background-color: #111;
   }
 
+div.left-container {
 
+    float: left;
+    width: 40%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+}
+
+h1.title {
+    color: white;
+}
 
 
 img {
   border-radius: 5px;
   border: red;
+  width: 100%;
 
 
 }
