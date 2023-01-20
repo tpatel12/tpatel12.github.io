@@ -33,3 +33,13 @@ li.navitem a {
   li.navitem a:hover {
     background-color: #111;
   }
+
+
+
+
+img {
+  border-radius: 5px;
+  border: red;
+
+
+}
