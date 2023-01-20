@@ -61,7 +61,7 @@ h1.title {
 
 div.box{
   margin:auto;
-  width: 80%
+  width: 80%;
 }
 
 img {
@@ -70,8 +70,7 @@ img {
   border-color: green;
   border: solid;
   width: 80px;
- 
-  display:block;
+  display: block;
   margin: auto;
   
 }
