@@ -11,10 +11,19 @@ h1 {
     background-color: grey;
 }
 
-
-.navitem{
-    float: left;
-    font-size: 24px;
-    color: darkblue;
-
+ul{
+    background-color: green;
 }
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
