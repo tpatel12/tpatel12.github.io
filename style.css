@@ -68,6 +68,7 @@ section.right-container{
 h1.title {
     color: white;
     font-size: 30px;
+  
 }
 
 div.box{
@@ -101,7 +102,7 @@ img.grid-image{
     padding: 10px;
     column-gap: 10px;
     row-gap: 10px;
-    grid-auto-rows: 400px; 
+    grid-auto-rows: 350px; 
 }
 
 
@@ -119,9 +120,13 @@ img.grid-image{
 
 .description{
   margin: 5px 0px;
+  overflow:hidden;
+}
+
+h4.description{
+  max-height: 20px;
 }
 
 p.description {
-  overflow:hidden;
   max-height: 110px;
 }
