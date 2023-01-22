@@ -91,6 +91,7 @@ div.box{
 img.grid-image{
   width: 80%;
   height: 160px;
+  max-width: 250px;
   object-fit: cover;
 }
 
