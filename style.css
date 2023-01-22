@@ -103,10 +103,22 @@ img.grid-image{
     row-gap: 10px;
     grid-auto-rows: 400px; 
 }
+
+
+.grid-text{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     text-align: center;
+    
+}
+
+.description{
+  margin: 5px 0px;
 }
 
 p.description {
