@@ -1,6 +1,6 @@
 
 h1 {
-    color: red;
+    font-family: "Arial";
     
 }
 
@@ -84,8 +84,10 @@ img {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    background-color: #61A6F3;
     padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
