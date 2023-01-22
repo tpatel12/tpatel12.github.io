@@ -132,11 +132,18 @@ p.description {
 }
 
 
-
 .clickable{
     color:white;
+
 }
 
 .clickable:hover {
     color: #E6A;
 }
+.list-icon{
+   font-size: 60px;
+}
+
+
+
+
