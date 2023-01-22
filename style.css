@@ -79,7 +79,7 @@ div.box{
   stroke: 15px;
   border-color: green;
   border: solid;
-  width: min(100%, 30vh);
+  width: min(100%, 200px);
  
   display: block;
   margin: auto;
@@ -88,10 +88,11 @@ div.box{
 
 img.grid-image{
   width: 80%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
 }
 
- 
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
