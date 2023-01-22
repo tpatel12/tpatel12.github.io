@@ -24,7 +24,9 @@ nav ul {
     background-color: #555;
   }
 
-
+.navitem{
+  color:white;
+}
 li.navitem a {
     float: left;
     display: block;
@@ -129,4 +131,8 @@ h4.description{
 
 p.description {
   max-height: 110px;
+}
+
+iconify-icon{
+  color: white;
 }
