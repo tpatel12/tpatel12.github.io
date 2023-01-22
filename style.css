@@ -130,3 +130,13 @@ h4.description{
 p.description {
   max-height: 110px;
 }
+
+
+
+.clickable{
+    color:white;
+}
+
+.clickable:hover {
+    color: #E6A;
+}
