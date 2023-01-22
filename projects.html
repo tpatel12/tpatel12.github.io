@@ -5,26 +5,17 @@
   <meta name="viewport" content="width=device-width">
   <title>Projects</title>
   <link rel="stylesheet" href="/style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li class="navitem">
-                <a href="/">Home</a>
-            </li>
-            <li class="navitem">
-                <a href="/Projects">Projects</a>
-            </li>
-            <li class="navitem">
-              <a href="https://www.linkedin.com/in/tushar-patel-76a85422a/">
-                <iconify-icon icon="mdi:linkedin" class="navitem"></iconify-icon>
-              </a>
-              
-          </li>
-    
-        </ul>
-    </nav>
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html");
+        });
+        </script>
     
     <h1> Projects </h1>
 
