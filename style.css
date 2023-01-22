@@ -10,10 +10,11 @@ body{
 }
 
 
-.navbar{
-
-    display: flex;
-    background-color: grey;
+nav{
+    position: fixed;
+    width:100%;
+    top:0;  
+    background-color: #555; 
 }
 
 nav ul {
@@ -21,12 +22,9 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555;
   }
 
-.navitem{
-  color:white;
-}
+
 li.navitem a {
     float: left;
     display: block;
@@ -131,8 +129,4 @@ h4.description{
 
 p.description {
   max-height: 110px;
-}
-
-iconify-icon{
-  color: white;
 }
