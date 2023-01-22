@@ -74,12 +74,13 @@ div.box{
   width: 80%;
 }
 
-img {
+#profile {
   border-radius: 15%;
   stroke: 15px;
   border-color: green;
   border: solid;
-  width: 100%;
+  width: min(100%, 30vh);
+ 
   display: block;
   margin: auto;
   
