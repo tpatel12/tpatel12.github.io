@@ -30,9 +30,10 @@ li.navitem a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 30px;
+    padding: 15px 30px;
     font-size: 20px;
     text-decoration: none;
+    height:30px;
   }
   
   li.navitem a:hover {
