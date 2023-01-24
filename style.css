@@ -153,3 +153,30 @@ h3.intro{
   font-family: Trebuchet MS
 }
 
+
+.horizontal-list{
+    float: left;
+    list-style-type: none;
+}
+
+.activity{
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  float: left;
+
+  
+}
+
+.activity p {
+  margin: 10px;
+}
+
+.activity img {
+  width: 110px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
