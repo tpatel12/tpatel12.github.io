@@ -66,8 +66,10 @@ main{
 }
 
 .right-container{
-  margin-left: 40%;
-  padding: 5%;
+  margin-left: min(40%, 300px);
+  padding: 20px;
+  float: left;
+
   height: 100%;
 
 }
