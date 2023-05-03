@@ -108,7 +108,7 @@ img.grid-image{
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     background-color: #61A6F3;
     padding: 10px;
     column-gap: 10px;
