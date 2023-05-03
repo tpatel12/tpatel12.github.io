@@ -113,7 +113,7 @@ img.grid-image{
     padding: 10px;
     column-gap: 10px;
     row-gap: 10px;
-    grid-auto-rows: 350px; 
+    /*grid-auto-rows: 350px;  <-- no limit on grid item height*/
 }
 
 
@@ -138,10 +138,11 @@ h4.description{
   max-height: 20px;
 }
 
+/*
 p.description {
-  max-height: 110px;
+  max-height: 110px; <-- no limit on grid item description height, so descriptions don't get truncated
 }
-
+*/
 
 .clickable{
     color:white;
