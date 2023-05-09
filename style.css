@@ -57,8 +57,6 @@ aside.left-container {
   padding-left: 20px;
 }
 
-
-
 main{
   position: absolute;
    
@@ -72,13 +70,12 @@ main{
   height: 100%;
 
 }
+
 h1.title {
     color: white;
     font-size: 30px;
   
 }
-
-
 
 div.box{
   margin:auto;
@@ -151,6 +148,7 @@ p.description {
 .clickable:hover {
     color: #E6A;
 }
+
 .list-icon{
    font-size: 60px;
 }
