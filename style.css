@@ -58,11 +58,13 @@ aside.left-container {
 
 main{
   position: absolute;
+  width:100%;
    
 }
 
 .right-container{
   margin-left: min(40%, 300px);
+  margin-right: min(20%,100px);
   padding: 20px;
   float: left;
 
